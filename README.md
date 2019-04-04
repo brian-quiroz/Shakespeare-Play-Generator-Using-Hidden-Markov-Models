@@ -13,7 +13,7 @@ Starting from the fourth word in each line, words are predicted using the Markov
     ('all', 'the', 'worlds') -> ['a', 'new', 'vastidity', 'my']
     ('wherefore', 'art', 'thou') -> ['romeo']
     ('cowards', 'die', 'many') -> ['times']
-    ['thou', 'shalt', 'woo'] -> []
+    ('thou', 'shalt', 'woo') -> []
 
 It is not uncommon to find triplets of words that only lead to one option. Repeatedly following the only path available would have us end up with long strings of words that are identical to the ones in the training set. Hence, we attempt to reduce the number of times we encounter a single option when predicting words.
 

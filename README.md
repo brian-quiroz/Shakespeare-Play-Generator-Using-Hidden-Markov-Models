@@ -1,6 +1,6 @@
 # Shakespeare Play Generator Using Hidden Markov Model
 
-This algorithm uses lines from Shakespeare plays and three Hidden Markov Models of orders 1 through 3 to generate lines that are novel and yet retain the essence of Shakespeare's sentence construction. The training data was obtained from https://www.kaggle.com/kingburrito666/shakespeare-plays.
+This algorithm uses lines from Shakespeare plays and creates three Hidden Markov Models of orders 1 through 3 to generate lines that are novel and yet retain the essence of Shakespeare's sentence construction. The training data was obtained from https://www.kaggle.com/kingburrito666/shakespeare-plays.
 
 The motivation for using three Markov chains is to take advantage of each Markov chain's benefits. The greater the degree of the Markov chain, the more precise it is and the less variablity it allows for (overfitting). On the other hand, Markov chains of lower degrees allow us to generate more flexible text but the text is less likely to be sensical (less precision). By using three Markov chains of different orders, we maintain a moderate degree of precision while reducing the amount of overfitting.
 

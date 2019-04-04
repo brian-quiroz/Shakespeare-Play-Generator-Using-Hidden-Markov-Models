@@ -2,7 +2,7 @@ import numpy as np
 import random
 import string
 
-#First three words:
+#Dictionaries used to generate the first three words:
 firstWords = {}
 secondWords = {}
 thirdWords = {}

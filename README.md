@@ -52,7 +52,7 @@ To solve both of these problems we use the second and first order Markov chains.
 
     If this fails, we give up and end the line. For example:
 
-          ('they', 'were', 'glassd') -> ['tokEND']
+          ('they', 'were', 'glassd') -> []
           ('were', 'glassd') -> ['tokEND']
           'glassd' -> ['tokEND']
 
